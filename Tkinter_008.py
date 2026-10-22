@@ -40,3 +40,8 @@ frame_input = tk.Frame(root)
 frame_input.pack(pady=5)
 
 entries = []
+for i, nama in enumerate(MAPEL):
+    tk.Label(frame_input, text=f"{nama} :", font=("Arial", 11), anchor="w", width=26).grid(
+        row=i, column=0, padx=10, pady=4, sticky="w"
+    )
+    
