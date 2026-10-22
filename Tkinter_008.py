@@ -33,3 +33,10 @@ label_judul = tk.Label(
     text="Aplikasi Prediksi Prodi Pilihan",
     font=("Arial", 16, "bold"),
 )
+label_judul.pack(pady=15)
+
+# ===== Frame input nilai =====
+frame_input = tk.Frame(root)
+frame_input.pack(pady=5)
+
+entries = []
