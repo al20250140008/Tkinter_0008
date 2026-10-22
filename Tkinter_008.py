@@ -44,4 +44,17 @@ for i, nama in enumerate(MAPEL):
     tk.Label(frame_input, text=f"{nama} :", font=("Arial", 11), anchor="w", width=26).grid(
         row=i, column=0, padx=10, pady=4, sticky="w"
     )
-    
+    entry = tk.Entry(frame_input, width=15, font=("Arial", 11))
+    entry.grid(row=i, column=1, padx=10, pady=4)
+    entries.append(entry)
+
+# ===== Button Hasil Prediksi =====
+btn_prediksi = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    font=("Arial", 12, "bold"),
+    bg="#2e86de",
+    fg="white",
+    width=18,
+    command=hasil_prediksi,
+)
