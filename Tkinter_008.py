@@ -25,3 +25,5 @@ def hasil_prediksi():
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 root.geometry("480x540")
+root.resizable(False, False)
+
