@@ -24,3 +24,4 @@ def hasil_prediksi():
 # ===== Jendela utama =====
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("480x540")
